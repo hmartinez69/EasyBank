@@ -4,12 +4,12 @@ footer {
   background-color: $dark-blue
 }
 
-svg > g > path {
-  fill: white;
-}
-
 .footer-content {
   padding-top: 50px;
+
+  svg > g > path {
+    fill: white;
+  }
 }
 
 .social-icons {

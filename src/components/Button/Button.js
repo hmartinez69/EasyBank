@@ -5,6 +5,6 @@ import './Button.scss';
 
 export default function Button(props) {
   return (
-    <Btn variant="primary" class="test">{props.text}</Btn>
+    <Btn variant="primary">{props.text}</Btn>
   );
 }

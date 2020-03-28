@@ -1,8 +1,19 @@
-.attribution {
-  font-size: 12px;
-  text-align: center;
+@import '../../assets/scss/variables';
 
-  a {
-    color: hsl(228, 45%, 44%);
+nav {
+  margin: 30px 0px 20px 0px;
+}
+
+.logo-header {
+    padding-top: 10px;
+}
+
+.tabs {
+  list-style-type: none;
+  padding-top: 10px;
+
+  .tab {
+    margin-left: 20px;
+    color: $grayish-blue;
   }
 }
