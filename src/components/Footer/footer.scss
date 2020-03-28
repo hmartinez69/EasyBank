@@ -1,0 +1,44 @@
+@import '../../assets/scss/variables';
+
+footer {
+  background-color: $dark-blue
+}
+
+svg > g > path {
+  fill: white;
+}
+
+.footer-content {
+  padding-top: 50px;
+}
+
+.social-icons {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.social-icon {
+  margin-left: 10px;
+}
+
+.menu-footer {
+  list-style-type: none;
+  font-size: $body-size;
+  font-family: 15px;
+  text-align: left;
+
+  li {
+    margin-top: 15px;
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+.credits p {
+  color: $grayish-blue;
+  text-align: left;
+  margin-top: 60px;
+  font-size: 13px;
+}
