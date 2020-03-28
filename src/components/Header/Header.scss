@@ -1,0 +1,42 @@
+@import '../../assets/scss/variables';
+
+header {
+  text-align: left;
+  font-family: $font;
+  background-color: $very-light-gray;
+  position: relative;
+  height: 500px;
+
+  .mega-title {
+    padding-top: 125px;
+
+    h1 {
+      color: $dark-blue;
+      font-weight: 400;
+      width: 80%;
+    }
+
+    p {
+      color: $grayish-blue;
+      font-size: $body-size - 1px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .mock-up {
+    .bg-mockup {
+      position: relative;
+      bottom: 200px;
+      z-index: 0;
+      height: 800px;
+    }
+
+    .img-mockup {
+      height: 700px;
+      position: relative;
+      left: 320px;
+      bottom: 880px;
+      z-index: 1;
+    }
+  }
+}
