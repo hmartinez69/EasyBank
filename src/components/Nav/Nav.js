@@ -13,11 +13,11 @@ export default function Nav(props) {
           </div>
           <div className="col-md-4 offset-md-2">
             <ul className="tabs row">
-              <li className="tab">Home</li>
-              <li className="tab">About</li>
-              <li className="tab">Contact</li>
-              <li className="tab">Blog</li>
-              <li className="tab">Careers</li>
+              <li><a href="#" className="tab">Home</a></li>
+              <li><a href="#" className="tab">About</a></li>
+              <li><a href="#" className="tab">Contact</a></li>
+              <li><a href="#" className="tab">Blog</a></li>
+              <li><a href="#" className="tab">Careers</a></li>
             </ul>
           </div>
           <div className="col-md-2 offset-md-2">

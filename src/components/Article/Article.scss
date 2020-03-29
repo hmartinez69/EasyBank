@@ -15,6 +15,10 @@
       color: $dark-blue;
       font-size: 17px;
       font-weight: 400;
+      &:hover {
+        cursor: pointer;
+        color: hsl(136, 65%, 51%);
+      }
     }
     .card-text {
       font-size: 10px;

@@ -6,6 +6,7 @@ import Nav from './components/Nav/Nav';
 import LatestArticles from './components/LatestArticles/LatestArticles';
 import Attribution from './components/Attribution/Attribution';
 import Header from './components/Header/Header';
+import Avantages from './components/Avantages/Avantages';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       <Nav></Nav>
 
       <Header></Header>
-      
+
+      <Avantages></Avantages>
+
       <LatestArticles></LatestArticles>
 
       <Footer></Footer>

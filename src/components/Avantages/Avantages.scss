@@ -1,0 +1,41 @@
+@import '../../assets/scss/variables';
+
+.avantages {
+  background-color: $light-grayish-blue;
+  position: relative;
+  z-index: 1;
+  font-family: $font;
+  text-align: left;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .argu-title {
+    h2 {
+      color: $dark-blue;
+      font-weight: 400;
+    }
+
+    p {
+      margin-top: 30px;
+      font-size: $body-size - 3px;
+      color: $grayish-blue;
+    }
+  }
+
+  .arguments {
+    margin-top: 50px;
+    padding-left: 7px;
+
+    h3 {
+      margin-top: 30px;
+      color: $dark-blue;
+      font-weight: 400;
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: $body-size - 3px;
+      color: $grayish-blue;
+    }
+  }
+}

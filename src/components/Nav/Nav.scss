@@ -18,5 +18,11 @@ nav {
   .tab {
     margin-left: 20px;
     color: $grayish-blue;
+
+    &:hover {
+      border-bottom: 2px solid #38AD57;
+      cursor: pointer;
+      text-decoration: none;
+    }
   }
 }

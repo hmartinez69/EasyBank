@@ -19,7 +19,8 @@ header {
     p {
       color: $grayish-blue;
       font-size: $body-size - 1px;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
+      margin-top: 20px;
     }
   }
 
@@ -29,6 +30,7 @@ header {
       bottom: 200px;
       z-index: 0;
       height: 800px;
+      left: 50px;
     }
 
     .img-mockup {
@@ -36,7 +38,15 @@ header {
       position: relative;
       left: 320px;
       bottom: 880px;
-      z-index: 1;
+      z-index: 2;
     }
+  }
+
+  .intro-mobile {
+    display: none;
+  }
+
+  .intro-mobile-mockup {
+    display: none;
   }
 }
