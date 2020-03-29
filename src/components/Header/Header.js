@@ -23,18 +23,6 @@ function Header() {
           </div>
         </div>
       </div>
-
-      <div class="drop-down-nav">
-        <div class="dr-list-nav" id="top-nav">
-          <img src={logo} class="logo"  alt ="logo" />
-          <img src={hamburger} class="hamburger" onclick="myFunction()"  alt ="icon" />
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Blog</a>
-          <a href="#">Careers</a>
-        </div>
-      </div>
     </header>
   )
 }
